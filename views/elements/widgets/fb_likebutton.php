@@ -25,8 +25,7 @@ $datas = $this->requestAction($url);
   js.src = "//connect.facebook.net/<?php echo $datas['language'] ?>/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-	<div class="fb-like"
-		<?php if($datas['page_url']) : ?> data-href="<?php echo $datas['page_url'] ?>"<?php endif ?> 
+	<div class="fb-like"<?php if($datas['page_url']) : ?> data-href="<?php echo $datas['page_url'] ?>"<?php endif ?> 
 		data-send="<?php echo $datas['send_button'] ?>" 
 		data-layout="<?php echo $datas['layout_style'] ?>" 
 		data-width="<?php echo $datas['width'] ?>" 

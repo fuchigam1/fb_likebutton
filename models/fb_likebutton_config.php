@@ -35,13 +35,13 @@ class FbLikebuttonConfig extends AppModel {
  * @access public
  */
 	var $validate = array(
-//			'page_url'	=> array(
-//				array(
-//					'rule'		=>	'',
-//					'message'	=>	'URL形式で入力して下さい。',
-//					'allowEmpty'	=> true
-//				)
-//			),
+			'page_url'	=> array(
+				array(
+					'rule'		=>	'url',
+					'message'	=>	'URL形式で入力して下さい。',
+					'allowEmpty'	=> true
+				)
+			),
 			'width'		=> array(
 				'rule'			=>	'numeric',
 				'message'		=>	'半角数字で入力して下さい。',

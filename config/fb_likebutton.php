@@ -16,8 +16,7 @@ $config['BcApp.adminNavi.fb_likebutton'] = array(
 		'name'		=> 'facebook LikeButton プラグイン',
 		'contents'	=> array(
 			array('name' => '表示設定', 
-				'url' => array('admin' => true, 'plugin' => 'fb_likebutton', 'controller' => 'fb_likebutton_configs', 'action' => 'index')),
-			array('name' => '表示確認', 
-				'url' => array('admin' => true, 'plugin' => 'fb_likebutton', 'controller' => 'fb_likebutton', 'action' => 'index'))
+				'url' => array('admin' => true, 'plugin' => 'fb_likebutton', 'controller' => 'fb_likebutton_configs', 'action' => 'index')
+			)
 	)
 );

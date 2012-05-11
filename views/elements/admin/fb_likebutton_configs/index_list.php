@@ -46,6 +46,6 @@ $(function(){
 		data-width="<?php echo $this->data['FbLikebuttonConfig']['width'] ?>" 
 		data-show-faces="<?php echo $show_faces[$this->data['FbLikebuttonConfig']['show_faces']] ?>" 
 		data-action="<?php echo $verb_to_display[$this->data['FbLikebuttonConfig']['verb_to_display']] ?>" 
-		data-colorscheme="<?php echo $color_scheme[$this->data['FbLikebuttonConfig']['color_scheme']] ?>" 
-		data-font="<?php echo $font[$this->data['FbLikebuttonConfig']['font']] ?>">
+		data-colorscheme="<?php echo $color_scheme[$this->data['FbLikebuttonConfig']['color_scheme']] ?>"
+		<?php if($this->data['FbLikebuttonConfig']['font']) : ?> data-font="<?php echo $font[$this->data['FbLikebuttonConfig']['font']] ?><?php endif ?>">
 	</div>

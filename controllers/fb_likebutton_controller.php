@@ -32,13 +32,6 @@ class FbLikebuttonController extends AppController {
  */
 	var $components = array('BcAuth','Cookie','BcAuthConfigure');
 /**
- * ヘルパー
- *
- * @var array
- * @access public
- */
-	var $helpers = array(BC_TEXT_HELPER, BC_TIME_HELPER, BC_FORM_HELPER, 'FbLikebutton.FbLikebuttonBaser');
-/**
  * サブメニューエレメント
  *
  * @var array
